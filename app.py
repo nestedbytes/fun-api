@@ -1,11 +1,13 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify,render_template
 import random
 import pyjokes
 app = Flask(__name__)
 
 @app.route("/")
 def home():
-   return ("")
+
+    return render_template('index.html')
+
 
 @app.route('/joke')
 def joke():
