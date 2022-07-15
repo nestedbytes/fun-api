@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, render_template
-import random
+
 import pyjokes
 app = Flask(__name__)
 
