@@ -1,4 +1,4 @@
-# 1.1.1
+# 2.0.0
 from flask import Flask, jsonify, render_template
 
 import pyjokes
