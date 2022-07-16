@@ -9,7 +9,9 @@
         rel="stylesheet">
         <link rel="stylesheet" href="/static/prism.css">
         <script src="/static/prism.js"></script>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Pacifico&family=Titan+One&display=swap" rel="stylesheet">
     <title>Fun Api</title>
 </head>
 
@@ -18,21 +20,31 @@
 
     </nav>
     <div class="container">
-      
+	
+      <style>
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Pacifico&family=Titan+One&display=swap');
+.container{
+font-family: 'Anton', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Titan One', cursive;}
+</style>
                 <p>How to use the joke api?</p>
                 <p>Python:</p>
-                <pre class="language-js"><code>
+                <pre class="language-python"><code>
 from requests import get
 joke = get("https://fun-api.up.railway.app/joke").text
 print(joke)                 
-                </code></pre>
+   
+				
             </li> 
           
         </ol>
-    </div>
-    <p>Made with ❤ by  <a href="https://github.com/shourgamer2">Shourgamer2</a></p> 
+		    <p>Made with ❤ by  <a href="https://github.com/shourgamer2">Shourgamer2</a></p> 
 
     <a href="https://github.com/shourgamer2/fun-api">Github/Source Code</a>
+    </div>
+
 </body>
 
 </html>
