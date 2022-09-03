@@ -1,6 +1,7 @@
 # 2.0.0
 from flask import Flask, jsonify, render_template
-
+import json
+import requests
 import pyjokes
 app = Flask(__name__)
 
