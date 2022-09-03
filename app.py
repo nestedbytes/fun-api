@@ -30,9 +30,8 @@ def joke():
 @app.route('/meme')
 def meme():
     meme_pic,subreddit = get_meme()
-    return render_template("meme_index.html",
-    meme_pic=meme_pic,
-    subreddit=subreddit)
+    return render_template("meme.html",
+    meme_pic=meme_pic)
     
     
     
