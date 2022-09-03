@@ -1,4 +1,4 @@
-# 2.0.0
+
 from flask import Flask, jsonify, render_template
 import json
 import requests
@@ -31,8 +31,7 @@ def joke():
 @app.route('/meme')
 def meme():
     meme_pic,subreddit = get_meme()
-    return render_template("meme.html",
-    meme_pic=meme_pic)
+    return render_template("meme.html", meme_pic=meme_pic)
     
     
     
