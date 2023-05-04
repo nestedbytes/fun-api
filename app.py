@@ -34,7 +34,9 @@ def meme():
     return render_template("meme.html", meme_pic=meme_pic)
     
     
-    
+@app.route('/quote')
+def quote():
+    return("WIP")
 
 
 
